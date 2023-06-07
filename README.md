@@ -1,5 +1,6 @@
 # hotel-booking
 
+<h2>Getting Icons <h2/>
 Adding icons from fontawesome.com
 <br/>
 https://fontawesome.com/start
