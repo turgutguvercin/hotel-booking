@@ -10,7 +10,7 @@ Get your cdn add to header to use icons.
 
 <h2>Security Considerations</h2>
 <h3>Preventing Sql Injection </h3>
-Utilizing bind variables consistently in your programming can eliminate the need to concatenate SQL commands. This method serves as a protective measure against potential cyber threats, effectively safeguarding your code from unscrupulous users who may attempt to modify or inject extra statements.
+Utilizing bind variables can eliminate the need to concatenate SQL commands. This method serves as a protective measure against potential cyber threats, effectively safeguarding your code from unscrupulous users who may attempt to modify or inject extra statements.
 <br/>
  https://www.php.net/manual/en/mysqli-stmt.bind-param.php
 
