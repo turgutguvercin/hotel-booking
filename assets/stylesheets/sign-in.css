@@ -1,0 +1,145 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: #1165d3;
+}
+
+nav ul a{
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+nav ul a:hover{
+    background-color: #000000;
+}
+
+nav ul li:first-child{
+    flex-grow: 0.8;
+    font-size: 25px; 
+}
+
+main{  
+    margin: 8em auto 0 auto; 
+    border: 1px solid gainsboro;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 25em;
+    border: 1.5px solid gainsboro;
+    padding: 0.3em;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+}
+
+#submit-button{
+    width: 5em;
+    padding: 0.5em;
+    background-color: #03a1fc;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+#submit-button:hover{
+    background-color:#03c2fc ;
+}
+
+/****FOOTER*****/
+footer{
+    margin-top: 12em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1165d3;
+    height: auto;
+    padding: 2em 8em;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+footer div{
+    width: 18em;
+    padding: 2em 0em;
+}
+
+footer img{
+    max-width: 75%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer div p{
+    font-size:30px ;
+     
+
+}
+
+#useful-links li{
+    padding: 0.4em ;
+    text-align: left;  
+}
+
+
+#useful-links{
+    list-style-position: inside;
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+}
+
+.social li
+{
+    color: #fff;
+    list-style: none;
+    padding: 0.6em;
+    
+}
+
+
+

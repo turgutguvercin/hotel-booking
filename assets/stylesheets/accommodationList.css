@@ -1,0 +1,241 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;   
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: #1165d3;
+}
+
+nav ul a{
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+
+nav ul a:hover{
+    background-color: #000000;
+}
+
+
+
+nav ul li:first-child{
+    flex-grow: 0.8;
+    font-size: 25px; 
+}
+
+
+#search[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #1165d3;
+}
+.searchBar{
+    margin-left: 16%;
+    margin-top: 3em;
+}
+
+#search-submit {  
+    padding: 6px 10px;
+    margin-right: 16px;
+    background: #1165d3;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #1165d3;
+}
+
+#search{ 
+    display:inline-block;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap:10px 40px;
+    margin: 0 auto 0 auto;
+    align-items: flex-start;
+    max-width: 90%;   
+}
+
+.listed-item{
+    display: grid; 
+    grid-template-columns: 100%; 
+    grid-template-rows: auto auto auto; 
+    gap: 0px 0px; 
+    margin-top: 2em;
+    border: 1px solid gainsboro;
+    min-width: 200px;
+    max-width: 23%;
+    transition: 0.3s;
+    border-radius:5px;
+    min-height: 32em; 
+}
+
+#details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.listed-item:hover{
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.18);
+}
+
+.button{
+    display: block;
+    min-width: 90%;
+    margin: 0 auto 1em auto;
+    color: #03a1fc;
+    background-color: #fff;
+    border: 1px solid #03a1fc;
+    border-radius: 3px;
+    transition: 0.3s;
+    padding: 0.5em;
+    align-self: flex-end;
+}
+
+.button:hover{
+    background-color:#03c2fc ;
+    color: #fff;
+    border: 1px solid #03c2fc;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.item-text{
+    padding: 1em;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.74);
+} 
+ 
+
+
+
+/****FOOTER*****/
+footer{
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1165d3;
+    height: auto;
+    padding: 2em 8em;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+footer div{
+    width: 18em;
+    padding: 2em 0em;
+}
+
+footer img{
+    max-width: 75%;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer div p{
+    font-size:30px ;
+}
+
+#useful-links li{
+    padding: 0.4em ;
+    text-align: left;    
+}
+
+
+#useful-links{
+    list-style-position: inside;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.social li{
+    color: #fff;
+    list-style: none;
+    padding: 0.6em;
+}
+
+
+
+
